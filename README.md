@@ -1,6 +1,6 @@
-### PROJECT FOR THE INTERN ENGAGE MENTORSHIP 2022
+# PROJECT FOR THE INTERN ENGAGE MENTORSHIP 2022
 
-## Problem Statement: 
+#### Problem Statement: 
 
 * Develop an application to demonstrate how the Automotive Industry could harness data to take informed decisions.
 * You could choose to use the data set provided, or use any open-source data set available you might have access to, or create your own.
@@ -31,6 +31,8 @@
 * Step 6: A box will open up and will ask you to provide the repository URL. Paste the below URL into it. The repository will get cloned into your local system.
 
  git clone https://github.com/Mahi-ranjaN/Engage-Project-2022.git
+ 
+ ```
 ![Cloning](/Screen_Shots/Clone.png)
 
 * Step 7: Install the following Python Libraries from the terminal.
