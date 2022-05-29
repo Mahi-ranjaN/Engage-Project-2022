@@ -181,4 +181,4 @@
 ## THANKS A LOT FOR VIEWING MY PROJECT!!
 
 
-## For more information, view this ==> [Vedio demo](https://drive.google.com/drive/folders/1W4erfKaumFvhFeCb7-EcOoq9VpdZ830t?usp=sharing).
+## For more information, view this => [Vedio demo](https://drive.google.com/drive/folders/1W4erfKaumFvhFeCb7-EcOoq9VpdZ830t?usp=sharing).
