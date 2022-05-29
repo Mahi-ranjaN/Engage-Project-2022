@@ -1,20 +1,30 @@
-PROJECT FOR THE ENGAGE MENTORSHIP 2022
+### PROJECT FOR THE INTERN ENGAGE MENTORSHIP 2022
 
-Problem Statement: Develop an application to demonstrate how the Automotive Industry could harness data to take informed decisions.
-You could choose to use the data set provided, or use any open-source data set available you might have access to, or create your own.
-Demonstrate the use of data analytics in identifying:
-Customer segments, Most popular car specification combination (engine type, fuel, mileage, etc), Right time to launch a new car, etc.
+* Problem Statement: Develop an application to demonstrate how the Automotive Industry could harness data to take informed decisions.
+* You could choose to use the data set provided, or use any open-source data set available you might have access to, or create your own.
+* Demonstrate the use of data analytics in identifying: Customer segments, Most popular car specification combination (engine type, fuel, mileage, etc), Right time to launch a new car, etc.
 
 
-### TECH STACK USED
+### LANGUAGE USED
 * Python
 
 ### HOW TO RUN THIS PROJECT IN YOUR LOCAL SYSTEM?
-Step 1: Install Python from [here](https://www.python.org/downloads/)
-Step 2: Install any IDE of your choice. I have used [Visual Studio Code](https://code.visualstudio.com/)
-Step 3: Install the following Python Libraries from the terminal.
+* Step 1: Install Python from [here](https://www.python.org/downloads/)
+![Python](/Screen_Shots/Python_Download.png)
+* Step 2: Install any IDE of your choice. I have used [Visual Studio Code](https://code.visualstudio.com/)
+![Visual Studio Code](/Screen_Shots/VS_Code.png)
+* Step 3: Create a folder in your local system and open it inside Visual Studio Code.
+* Step 4: Install an extension named 'GitHub Pull Requests and Issues' inside the Visual Studio Code. A source control tab will get appear in the side bar of the VS Code window once you install this extension.  
+![Github Extension](/Screen_Shots/Github_Extension.png)
+* Step 5: Inside VS Code, go to Settings --> Command Palette --> Git:Clone.
+* Step 6: A box will open up and will ask you to provide the repository URL. Paste the below URL into it. The repository will get cloned into your local system.
+  ```
+  git clone https://github.com/Mahi-ranjaN/Engage-Project-2022.git
 
- 
+![Cloning](/Screen_Shots/Clone.png)
+  ```
+* Step 7: Install the following Python Libraries from the terminal.
+
   1. ### dash
  
   ```
@@ -54,25 +64,14 @@ Step 3: Install the following Python Libraries from the terminal.
   ```
   -----------------------
 
+* Step 8: In the main content section you will see **Main_App.py** file. Run that file from the terminal.
 
+![Cars Specifications by company](/Screen_Shots/10.png)
 
-## HOW TO RUN THE PROJECT
- 
- Make a folder in your system and clone the project using git bash then open the project in Visual Studio Code or any IDE you prefer.
- 
- ##### Clone the project 
-  ```
-  git clone https://github.com/Mahi-ranjaN/Engage-Project-2022.git
-  ```
-after cloning the project install all the libraries from the terminal mentioned above
+* Step 9: In the output section you will see a developer link like this. click on that link (*ctrl+click*)
 
-In the main content section you will see **Main_App.py** file run that file from the terminal.
+![Cars Specifications by company](/Screen_Shots/11.png)
 
-![Cars Specifications by company](/Screen_Shots/engagedoc10.png)
-
-In the output section you will see a developer link such as below click on that link (*ctrl+click*)
-
-![Cars Specifications by company](/Screen_Shots/engagedoc11.png)
 
 ## OVERVIEW OF THE PROJECT LAYOUT
 
