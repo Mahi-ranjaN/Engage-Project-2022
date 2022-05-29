@@ -1,6 +1,6 @@
 # PROJECT FOR THE INTERN ENGAGE MENTORSHIP 2022
 
-#### Problem Statement: 
+## PROBLEM STATEMENT: 
 
 * Develop an application to demonstrate how the Automotive Industry could harness data to take informed decisions.
 * You could choose to use the data set provided, or use any open-source data set available you might have access to, or create your own.
@@ -30,9 +30,12 @@
 
 * Step 6: A box will open up and will ask you to provide the repository URL. Paste the below URL into it. The repository will get cloned into your local system.
 
- git clone https://github.com/Mahi-ranjaN/Engage-Project-2022.git
- 
+ ### git clone
+
+ ``` 
+ https://github.com/Mahi-ranjaN/Engage-Project-2022.git
  ```
+
 ![Cloning](/Screen_Shots/Clone.png)
 
 * Step 7: Install the following Python Libraries from the terminal.
@@ -76,7 +79,7 @@
   ```
   -----------------------
 
-* Step 8: In the main content section you will see **Main_App.py** file. Run that file.
+* Step 8: In the main content section you will see **"Main_App.py"** file. Run that file.
 
 ![Cars Specifications by company](/Screen_Shots/10.png)
 
@@ -85,7 +88,7 @@
 ![Cars Specifications by company](/Screen_Shots/11.png)
 
 
-## OVERVIEW OF THE PROJECT LAYOUT
+## OVERVIEW OF THE PROJECT
 
   First of all you need to **SIGN IN** in the page using :- 
   
@@ -93,16 +96,14 @@
   
    *password* (**MahiRanjan**)}.
   
-  This is a prebuilt password in the code and you can not change it accordingly for the security purposes.
-  
   ![Cars Specifications by company](/Screen_Shots/7.png)
   
   
-  The Project layout is divided into multiple pages as for the convenience of the user. The pages names as:-
-   * Audi  => (company wise data of cars and specifications)
-   * Statewise Data => (statewise sales of cars per financial year)
-   * Customer's Behavior => (car purchaser's status while purchashing the cars (i.e, marital , educational , age group etc.))
-   * Top Values => top sellers of each brand.
+  The Project layout is divided into multiple pages named as:-
+   * Audi  => (Company wise data of cars and specifications)
+   * State wise Data => (State wise sales of cars per financial year)
+   * Customer's Behaviour => (Car purchaser's status while purchashing the cars (i.e, marital status , educational status , age group etc.))
+   * Top Values => Top sellers of each brand.
    
   ![Home page layout](/Screen_Shots/1.png)
   
@@ -114,73 +115,72 @@
    
   __specifications of the page__
    
-   *Here, you can select the company, then you can see a data table and bar charts.*
+   *Here, you can select the company of car and see the related data table and bar charts.*
     
    1. Data table :- 
-     In the data table you can see the different information regarding the cars such as engine type, model , showroom price, engine cc, height, length, and milege etc.You can also sort the data table based on your selection in the filter section of data table (please note that the data is case sensitive do please enter full name//value )
+     In the data table you can see the different information regarding the cars such as engine type, model , showroom price, engine cc, height, length, milege etc.You can also sort the data table based on your selection in the filter section of data table (please note that the data is case sensitive do please enter full name/value )
     
    2. Bar chart of Showroom price as per Engine displacement :- 
-     the bar graph shows the price of cars or that particular brand you selected as per engine cc.
+      The bar graph shows the price of cars of that particular brand you selected as per engine cc.
       You can also hover over the bar graph for getting the accurate information.
+
    ![Cars Specifications by company](/Screen_Shots/2.png)
    
-   3. Bar chart of power/ fuel capacity :- 
-     this bar chart shows the fuel capacity vs power generation ratio by the engines.
+   3. Bar chart of power/fuel capacity :- 
+      This bar chart shows the fuel capacity vs power generation ratio by the engines.
      
    4. Bar chart of car length as per model of the cars:- 
-     accurate representation of the information of length of car models in millimeters scale.
+      Accurate representation of the information of length of car models in millimeters scale.
+
    ![Cars Specifications by company](/Screen_Shots/3.png)
    
- * ### STATEWISE DATA
+ * ### STATE WISE DATA
  
-  *this page shows you the sales of cars as per state.*
+  *This page shows the sales of cars as per state.*
   
   __specifications of the page__
   
-  *here, you can select the financial year from the drop down and as per the data available you will see a map of india and a bar chart 
+  *Here, you can select the financial year from the drop down and as per the data available and you will see a map of india and a bar chart. 
   
-  1. Geographical representation(map) :- 
-     the map is showing the sales of cars in the particular financial year and when you hover over it will show you the data of quarterly sales in all the year and the state name. You can easily download , zoom in , zoom out and select the particular section in the map.
-  2. Bar chart :- it is the graphical representation of the data avalible in the map. You can easily download , zoom in , zoom out and select the particular section in the graph.
+  1. Geographical Representation(map) :- 
+     The map is showing the sales of cars in the particular financial year and when you hover over it, it will show the data of quarterly sales in all the year and the state name. You can easily download , zoom in , zoom out and select the particular section in the map.
+  2. Bar chart :- it is the graphical representation of the data avalible in the map. You can easily  download , zoom in , zoom out and select the particular section in the graph.
 
 ![Cars Specifications by company](/Screen_Shots/4.png)
- * ### CUSTOMER'S BEHAVIOR
+
+ * ### CUSTOMER'S BEHAVIOUR
   
-  *this page shows you the details/status of the customers.*
+  *This page shows you the details of the customers.*
   
    __specifications of the page__
    
    1. Car Purchaser's Income Status :- Pie chart representing the percentage of the income(salaried/business) mode.
    2. Car Purchaser's Marital Status :- Pie chart representing the percentage of the marital status(married/single).
    3. Car Purchaser's Education Status :- Pie chart representing the percentage of the education status(graduate/postgraduate) mode.
-   4. Salary vs Age Ratio Of The Customers :- bar chart of age group vs income per age group. this bar chart could be beneficial for the companies for designing the models as per the age group who can afford the cars.
-   5. Car Choice As Per Age Group :- bar chart representing the choice of cars per age group.
+   4. Salary vs Age Ratio Of The Customers :- Bar chart of age group vs income per age group. This bar chart could be beneficial for the companies for designing the models as per the age group who can afford the cars.
+   5. Car Choice As Per Age Group :- Bar chart representing the choice of cars per age group.
 
-![Cars Specifications by company](/Screen_Shots/5.png)
+![Cars Specifications by company](/Screen_Shots/5a.png)
 
-![Cars Specifications by company](/Screen_Shots/8.png)
+![Cars Specifications by company](/Screen_Shots/5b.png)
+
  * ### TOP VALUES
   
-  *this page basically shows you the top sellering car model of each brands with their sales in the year 2020.*
+  *This page basically shows you the top selleing car model of each brands with their sales in the year 2020.*
   
   __specifications of the page__
   
   There is an alert on the top of page showing -
+  You must be seeing two blank graph right now!! First, You need to select the company from the drop- down menu.
   
-  You must have been seeing two blank graph right now!! First! You need to select the company from the drop down
+![Cars Specifications by company](/Screen_Shots/6a.png)
   
-![Cars Specifications by company](/Screen_Shots/9.png)
-  
-  When you select the brand name from the company you will see a bar chart and pie chart of the sales and top selling models.
+  When you select the brand name from the company you will see a bar chart and pie chart of the sales and top selling models like this:
 
-![Cars Specifications by company](/Screen_Shots/6.png)
+![Cars Specifications by company](/Screen_Shots/6b.png)
 
 --------------------
-# Hope You Like the Project
-[Vedio demo](https://drive.google.com/drive/folders/1W4erfKaumFvhFeCb7-EcOoq9VpdZ830t?usp=sharing).
+## THANKS A LOT FOR VIEWING MY PROJECT!!
 
 
-
-### INSTALLATION OF PYTHON :-
-
-[Install Python](https://www.python.org/downloads/)
+## For more information, view this video demo 👉 [Vedio demo](https://drive.google.com/drive/folders/1W4erfKaumFvhFeCb7-EcOoq9VpdZ830t?usp=sharing).
